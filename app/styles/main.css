@@ -387,7 +387,6 @@ a > div.col-md-4.feature-panel > p.lead.bs-lead{color:#373a3c;}
 .link-stats{text-decoration:none;}
 .bitcoin-protocols-main{padding:20px;}
 .home-main{padding-top:15px;}
-.docs-ul{margin:20px 0 0 0;}
 .docs-btn-group{width:100%!important;}
 .blog-index .container{max-width:700px;font-size:18px;}
 .blog-post .container{max-width:700px;font-size:18px;}
@@ -565,6 +564,9 @@ section{word-break:break-word;}
   .dropdown-item:focus,.dropdown-item:hover{color:#95889C;background-color:rgba(0,0,0,0.15);font-weight:400;}
   a.nav-link > i.fa.fa-github{display:initial;}
 
+  /* 17. Navs */
+  .sidebar{position:fixed;top:56px;bottom:0;left:0;z-index:1000;display:block;padding:0px 20px 20px 20px;overflow-x:hidden;overflow-y:auto; /* Scrollable contents if viewport is shorter than content. */background-color:#f5f5f5;border-right:1px solid #eee;}
+
   /* Content */
   .hero-wrap{display:block;padding-top:8rem;padding-bottom:12rem;}
   .hero{padding-bottom:65px;padding-top:27px;}
@@ -618,7 +620,6 @@ section{word-break:break-word;}
   .docs-header-image-wrapper{height:400px;}
 
   .paper-section{padding-top:65px;padding-bottom:65px;}
-  .sidebar{position:fixed;top:56px;bottom:0;left:0;z-index:1000;display:block;padding:0px 20px 20px 20px;overflow-x:hidden;overflow-y:auto; /* Scrollable contents if viewport is shorter than content. */background-color:#f5f5f5;border-right:1px solid #eee;}
   .bitcoin-protocols-main{padding-right:40px;padding-left:40px;}
   .hero-btn-title{text-align:center;}
   .landing-hero-img{display:initial;}
@@ -646,6 +647,7 @@ section{word-break:break-word;}
     padding-top: 1.0625rem;
     padding-bottom: 1.5rem;
   }
+
   .brand-bug{display:none;}
   .brand-logo{display:initial;}
 
