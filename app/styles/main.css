@@ -291,6 +291,21 @@ h1.hero-head{font-family:'Source Code Pro',monospace;margin-bottom:0.875rem;font
 .hero-lead{font-family:'Source Code Pro',monospace;font-size:0.8125rem;margin-bottom:0.75rem;color:#D4CFD7;line-height:1.25rem;font-weight:400;}
 .lead-centered{font-family:'Source Code Pro',monospace;font-size:1rem;text-align:center;margin-bottom:2rem;font-weight:400;}
 
+/* 12. Buttons */
+.btn{font-family:'Source Code Pro',monospace;padding:0.5625rem 2.25rem;font-size:0.8125rem;font-weight:400;line-height:1.75rem;border-radius:0;}
+.btn-sm{font-size:0.8125rem;padding:0.375rem 2.125rem;line-height:1.5rem;}
+.btn-lg{font-size:0.875rem;padding:0.6875rem 3.4375rem;line-height:1.75rem;}
+.btn-outline-secondary:hover,.btn-outline-secondary:focus,.btn-outline-secondary:active{color:#9A21C5;}
+.btn-secondary{color:#270F34;border:1px solid #fff;background-color:#fff;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active{color:#fff;border:1px solid #E91E63;background-color:#E91E63;}
+.btn-outline-primary{color:#fff;border:1px solid rgba(255,255,255,0.15);font-weight:400;background-color:#270F34;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.btn-outline-primary:hover,.btn-outline-primary:focus,.btn-outline-primary:active{color:#270F34;border:1px solid rgba(255,255,255);background-color:#fff;}
+.btn-special{color:#fff;border:1px solid #080809;background-color:#080809;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.btn-special:hover,.btn-special:focus,.btn-special:active{color:#270F34;border:1px solid rgba(255,255,255);background-color:#fff;}
+.btn-highlight-magenta{color:#fff;border:1px solid #E91E63;background-color:#E91E63;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.btn-highlight-magenta:hover,.btn-highlight-magenta:focus,.btn-highlight-magenta:active{color:#270F34;border:1px solid rgba(255,255,255);background-color:#fff;}
+.btn-footer-max-width{max-width:225px;}
+
 /* 16. Navbar */
 .navbar{font-family:'Source Code Pro',monospace;padding-top:0.4375rem;padding-bottom:0.5625rem;}
 .navbar-brand{margin-right:0px;}
@@ -314,20 +329,15 @@ a.nav-link:hover,a.nav-link:focus{color:#fff;}
 .mobile-nav{background-color:#200c2b;padding-left:15px;}
 a.nav-link > i.fa.fa-github{display:none;}
 
-/* 12. Buttons */
-.btn{font-family:'Source Code Pro',monospace;padding:0.5625rem 2.25rem;font-size:0.8125rem;font-weight:400;line-height:1.75rem;border-radius:0;}
-.btn-sm{font-size:0.8125rem;padding:0.375rem 2.125rem;line-height:1.5rem;}
-.btn-lg{font-size:0.875rem;padding:0.6875rem 3.4375rem;line-height:1.75rem;}
-.btn-outline-secondary:hover,.btn-outline-secondary:focus,.btn-outline-secondary:active{color:#9A21C5;}
-.btn-secondary{color:#270F34;border:1px solid #fff;background-color:#fff;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
-.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active{color:#fff;border:1px solid #E91E63;background-color:#E91E63;}
-.btn-outline-primary{color:#fff;border:1px solid rgba(255,255,255,0.15);font-weight:400;background-color:#270F34;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
-.btn-outline-primary:hover,.btn-outline-primary:focus,.btn-outline-primary:active{color:#270F34;border:1px solid rgba(255,255,255);background-color:#fff;}
-.btn-special{color:#fff;border:1px solid #080809;background-color:#080809;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
-.btn-special:hover,.btn-special:focus,.btn-special:active{color:#270F34;border:1px solid rgba(255,255,255);background-color:#fff;}
-.btn-highlight-magenta{color:#fff;border:1px solid #E91E63;background-color:#E91E63;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
-.btn-highlight-magenta:hover,.btn-highlight-magenta:focus,.btn-highlight-magenta:active{color:#270F34;border:1px solid rgba(255,255,255);background-color:#fff;}
-.btn-footer-max-width{max-width:225px;}
+/* 17. Navs */
+
+/* Sidebar */
+.sidebar{display:none;}
+
+/* Sidebar navigation */
+.nav-sidebar{margin-right:-21px; /* 20px padding + 1px border */margin-bottom:20px;margin-left:-20px;}
+.nav-sidebar > li > a{padding-right:20px;padding-left:20px;}
+.nav-sidebar > .active > a,.nav-sidebar > .active > a:hover,.nav-sidebar > .active > a:focus{color:#fff;background-color:#428bca;}
 
 /* 37. Misc */
 .body-hero{background-color:#280f36!important;background:url(../images/visuals/earth-internet-purple.jpg) no-repeat;
@@ -473,15 +483,6 @@ pre{color:#2C96FF!important;font-size:13px;line-height:22px;white-space:pre;word
 .codeHighlight{color:#E91E63;}
 .codeLeft{padding-left:1rem;}
 
-
-/* Sidebar */
-.sidebar{display:none;}
-
-/* Sidebar navigation */
-.nav-sidebar{margin-right:-21px; /* 20px padding + 1px border */margin-bottom:20px;margin-left:-20px;}
-.nav-sidebar > li > a{padding-right:20px;padding-left:20px;}
-.nav-sidebar > .active > a,.nav-sidebar > .active > a:hover,.nav-sidebar > .active > a:focus{color:#fff;background-color:#428bca;}
-
 /* Footer */
 footer{position:relative;padding-top:60px;padding-bottom:80px;background-color:rgba(26,26,26,1);color:rgba(255,255,255,1);font-size:15px;z-index:999;}
 footer > li{list-style:none;}
@@ -514,9 +515,11 @@ section{word-break:break-word;}
 }
 
 @media (min-width: 576px){
+  /* 16. Navbar */
   .navbar-toggler,.navbar-toggler.collapsed{display:none;}
   .navbar-nav{display:initial;}
   li.nav-item:nth-last-child(2){display:initial;}
+
   .brand-bug{margin-top:6px;}
 }
 
@@ -544,7 +547,7 @@ section{word-break:break-word;}
   .feat-img-top > p{font-size:14px;}
   .feat-img-top > h4{font-size:18px;}
 
-  /* Navbar */
+  /* 16. Navbar */
   .navbar-brand img{position:relative;}
   .brand-bug{margin-top:0.625rem;}
   .brand-logo{margin-right:2.5rem;margin-top:0.9375rem;}
@@ -637,7 +640,7 @@ section{word-break:break-word;}
 
   /* 9. Fonts */
 
-  /* Navbar */
+  /* 16. Navbar */
   .navbar {
     font-family: 'Source Code Pro', monospace;
     padding-top: 1.0625rem;
